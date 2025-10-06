@@ -28,36 +28,34 @@ if not all([BLACKBOARD_URL, USERNAME, PASSWORD]):
     raise EnvironmentError("❌ Variables de entorno incompletas. Verifica tu archivo .env")
 
 # Lista de prueba: solo las primeras 3 asignaturas
-# COURSE_NAMES = [
-#     "01MBID_04_A_2025-26_Fundamentos de la tecnología Big Data",
-#     "02MBID_04_A_2025-26_Sistemas de almacenamiento y gestión Big Data",
-#     "03MBID_04_A_2025-26_Procesamiento de datos masivos",
-#     "04MBID_04_A_2025-26_Riesgo, Seguridad y Legislación en Sistemas de Información",
-#     "05MBID_04_A_2025-26_Minería de datos",
-#     "06MBID_04_A_2025-26_Estadística avanzada",
-#     "07MBID_04_A_2025-26_Machine Learning",
-#     "08MBID_04_A_2025-26_Visualización de Datos",
-#     "09MBID_04_A_2025-26_Soluciones de Inteligencia de negocio",
-#     "10MBID_04_A_2025-26_Ciencia de datos para la toma de decisiones estratégicas",
-#     "14MBID_04_A_2025-26_Trabajo Fin de Máster (Big Data y Ciencia de Datos)",
-#     "15MBID_04_A_2025-26_Prácticas Externas (Big Data y Ciencia de Datos)",
-#     "16MBID_04_A_2025-26_CF - Herramientas de programación",
-#     "17MBID_04_A_2025-26_CF - Herramientas de bases de datos",
-#     "18MBID_04_A_2025-26_CF - Herramientas de estadística",
-#     "Aula Refuerzo Área Ciencia y Tecnología",
-#     "00CCC_04_A_2025-26_CC - Solución de problemas",
-#     "01CCC_04_A_2025-26_CC - Resiliencia",
-#     "02CCC_04_A_2025-26_CC - Inteligencia Emocional",
-#     "03CCC_04_A_2025-26_CC - Habilidades de Comunicación",
-#     "04-2025 Elecciones Representante de Estudiantes",
-#     "04-2025 Máster Universitario en Big Data y Ciencia de Datos",
-#     "04-2025 Comunidad Universitaria VIU",
-#     "Ágora de Ciencia y Tecnología"
-# ]
+COURSE_NAMES = [
+    "01MBID_04_A_2025-26_Fundamentos de la tecnología Big Data",
+    "02MBID_04_A_2025-26_Sistemas de almacenamiento y gestión Big Data",
+    "04MBID_04_A_2025-26_Riesgo, Seguridad y Legislación en Sistemas de Información",
+    "05MBID_04_A_2025-26_Minería de datos",
+    "06MBID_04_A_2025-26_Estadística avanzada",
+    "07MBID_04_A_2025-26_Machine Learning",
+    "08MBID_04_A_2025-26_Visualización de Datos",
+    "09MBID_04_A_2025-26_Soluciones de Inteligencia de negocio",
+    "10MBID_04_A_2025-26_Ciencia de datos para la toma de decisiones estratégicas",
+    "14MBID_04_A_2025-26_Trabajo Fin de Máster (Big Data y Ciencia de Datos)",
+    "15MBID_04_A_2025-26_Prácticas Externas (Big Data y Ciencia de Datos)",
+    "16MBID_04_A_2025-26_CF - Herramientas de programación",
+    "17MBID_04_A_2025-26_CF - Herramientas de bases de datos",
+    "18MBID_04_A_2025-26_CF - Herramientas de estadística",
+    "Aula Refuerzo Área Ciencia y Tecnología",
+    "00CCC_04_A_2025-26_CC - Solución de problemas",
+    "01CCC_04_A_2025-26_CC - Resiliencia",
+    "02CCC_04_A_2025-26_CC - Inteligencia Emocional",
+    "03CCC_04_A_2025-26_CC - Habilidades de Comunicación",
+    "04-2025 Elecciones Representante de Estudiantes",
+    "04-2025 Máster Universitario en Big Data y Ciencia de Datos",
+    "04-2025 Comunidad Universitaria VIU"
+]
 
-COURSE_NAMES = ["Ágora de Ciencia y Tecnología"]
+# COURSE_NAMES = ["03MBID_04_A_2025-26_Procesamiento de datos masivos", "Ágora de Ciencia y Tecnología"]
 START_DATE = "2025-01-01"
-END_DATE = "2025-09-30"
+END_DATE = "2025-10-06"
 MAX_VIDEOS_PER_COURSE = 500  # Solo 2 videos por asignatura para prueba
 
 # Configurar logging
